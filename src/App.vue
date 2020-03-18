@@ -3,6 +3,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <img src="./assets/ryokuchama.png">
     </div>
     <router-view/>
   </div>
@@ -29,4 +30,9 @@
     }
   }
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
 </style>
