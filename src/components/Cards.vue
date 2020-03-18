@@ -5,8 +5,13 @@
       <v-card-title class="justify-center">
         {{ item.title }}
       </v-card-title>
+      
       <v-card-text>
         {{ item.text }}
+      </v-card-text>
+
+      <v-card-text>
+        {{ item.link }}
       </v-card-text>
     </v-card>
   </div>
